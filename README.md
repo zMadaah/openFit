@@ -1,4 +1,4 @@
-# openGym RN
+# openFit RN
 
 Port em **React Native + Expo (SDK 58)** do [openGym](https://github.com/alexpcosta/opengym), para rodar no iPhone pelo **Expo Go**, sem Xcode, sem conta e sem servidor.
 
