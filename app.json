@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "openGym",
-    "slug": "opengym-rn",
+    "name": "openFit",
+    "slug": "openfit-rn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.example.opengymrn"
+      "bundleIdentifier": "com.app.openfitrn"
     },
     "android": {
       "adaptiveIcon": {
