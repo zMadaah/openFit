@@ -1,0 +1,41 @@
+{
+  "name": "opengym-rn",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-community/datetimepicker": "9.2.1",
+    "@react-native-community/slider": "5.2.1",
+    "expo": "~58.0.21",
+    "expo-document-picker": "~58.0.4",
+    "expo-file-system": "~58.0.13",
+    "expo-haptics": "~58.0.7",
+    "expo-keep-awake": "~58.0.3",
+    "expo-notifications": "~58.1.7",
+    "expo-print": "~58.0.8",
+    "expo-sharing": "~58.0.21",
+    "expo-status-bar": "~58.0.4",
+    "expo-video": "~58.0.13",
+    "react": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-safe-area-context": "~5.10.1",
+    "react-native-svg": "15.16.0",
+    "zustand": "^5.0.16"
+  },
+  "devDependencies": {
+    "@types/react": "~19.3.0",
+    "typescript": "~6.0.3",
+    "vitest": "^4.1.12"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build:catalogue": "node scripts/build-catalogue.mjs",
+    "test": "vitest run"
+  },
+  "private": true,
+  "license": "AGPL-3.0-or-later"
+}
